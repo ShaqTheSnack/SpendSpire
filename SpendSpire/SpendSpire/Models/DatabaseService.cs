@@ -13,7 +13,7 @@ namespace SpendSpire.Models
     public class DatabaseService
     {
 
-        private static string connectionString = @"Data Source=C:\Users\shaqt\source\repos\SpendSpire\SpendSpire\SpendSpire\Assets\SpendSpireDatabase.db;";
+        private static string connectionString = @"Data Source= YOUR DATABASE PATH;";
 
         public static void UpdateDatabase(string IsPicked, int Amount)
         {
